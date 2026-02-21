@@ -1,0 +1,37 @@
+/* Додайте в кінець файлу */
+
+/* Стилі для чекбокса */
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Покращені стилі для полів введення */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Стилі для групи збереження */
+.control-group:last-of-type {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+/* Підказка для назви файлу */
+.file-name-hint {
+  font-size: 12px;
+  color: #6c757d;
+  margin-top: 2px;
+}

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeMark MVP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>🛡️ SafeMark: Локальна Ватермарка</h2>
+
+    <div class="controls">
+      <input type="file" id="imageInput" accept="image/*" />
+      <input
+        type="text"
+        id="watermarkText"
+        placeholder="Текст ватермарки"
+        value="КОПІЯ ДЛЯ БАНКУ"
+      />
+
+      <div class="control-group">
+        <label>🎨 Колір тексту:</label>
+        <div class="color-input">
+          <input type="color" id="textColor" value="#ff0000" />
+          <span>Червоний (за замовчуванням)</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label>📐 Напрямок тексту:</label>
+        <select id="textDirection">
+          <option value="diagonal">Діагональ (45°)</option>
+          <option value="horizontal">Горизонтально</option>
+          <option value="vertical">Вертикально</option>
+          <option value="diagonal-reverse">Діагональ зворотна (-45°)</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label>🖌️ Режим накладання:</label>
+        <select id="fillMode">
+          <option value="single">Один текст по центру</option>
+          <option value="tile">Заливка текстом (плитка)</option>
+          <option value="diagonal-tile">Діагональна заливка</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label>⚙️ Налаштування тексту:</label>
+        <label
+          >Шрифт:
+          <select id="fontFamily">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Georgia">Georgia</option>
+          </select>
+        </label>
+
+        <label
+          >Прозорість:
+          <input
+            type="range"
+            id="opacity"
+            min="0"
+            max="1"
+            step="0.1"
+            value="0.3"
+          />
+        </label>
+
+        <label
+          >Розмір тексту (% від ширини):
+          <input
+            type="range"
+            id="fontSize"
+            min="1"
+            max="15"
+            step="1"
+            value="5"
+          />
+        </label>
+
+        <label id="spacingLabel" style="display: none"
+          >Відстань між текстами (%):
+          <input
+            type="range"
+            id="spacing"
+            min="50"
+            max="300"
+            step="10"
+            value="150"
+          />
+        </label>
+      </div>
+
+      <!-- Новий блок для налаштувань збереження -->
+      <div class="control-group">
+        <label>💾 Налаштування збереження:</label>
+
+        <label
+          >Назва файлу:
+          <input
+            type="text"
+            id="fileName"
+            placeholder="watermarked-document"
+            value="watermarked-document"
+          />
+        </label>
+
+        <label
+          >Формат:
+          <select id="saveFormat">
+            <option value="png">PNG (без втрат, прозорість)</option>
+            <option value="jpeg">JPEG (менший розмір, без прозорості)</option>
+            <option value="webp">WebP (сучасний, добрий компроміс)</option>
+          </select>
+        </label>
+
+        <label id="jpegQualityLabel" style="display: none">
+          Якість JPEG/WebP:
+          <input
+            type="range"
+            id="jpegQuality"
+            min="0.1"
+            max="1"
+            step="0.1"
+            value="0.9"
+          />
+        </label>
+
+        <!-- Додаткова опція: додавати дату до назви -->
+        <label style="display: flex; align-items: center; gap: 5px">
+          <input type="checkbox" id="addDateToFileName" checked />
+          Додавати дату до назви файлу
+        </label>
+      </div>
+
+      <button id="downloadBtn">💾 Завантажити результат</button>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
