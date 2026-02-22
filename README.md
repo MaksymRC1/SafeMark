@@ -1,6 +1,6 @@
 <div align="center">
 
-[🛡️ SafeMark](https://maksymrc1.github.io/SafeMark/)
+[🛡️ SafeMark](maksymrc1.github.io/SafeMark/)
 
 [![Ліцензія](https://img.shields.io/badge/ліцензія-MIT-green)](LICENSE)
 [![Версія](https://img.shields.io/badge/версія-1.0.0-blue)]()
