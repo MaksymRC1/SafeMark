@@ -1,3 +1,17 @@
+<div align="center">
+
+# 🛡️ SafeMark
+
+[![Ліцензія](https://img.shields.io/badge/ліцензія-MIT-green)](LICENSE)
+[![Версія](https://img.shields.io/badge/версія-1.0.0-blue)]()
+[![HTML5](https://img.shields.io/badge/HTML5-✔-orange)]()
+[![CSS3](https://img.shields.io/badge/CSS3-✔-blue)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-✔-yellow)]()
+
+**Локальний інструмент для накладання ватермарок**
+
+</div>
+
 # 🛡️ SafeMark
 
 **Локальний інструмент для накладання ватермарок на зображення**
