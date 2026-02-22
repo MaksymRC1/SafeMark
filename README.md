@@ -2,7 +2,7 @@
 
 **Локальний інструмент для накладання ватермарок на зображення**
 
-![SafeMark Preview](preview.png)
+![SafeMark Preview](https://maksymrc1.github.io/SafeMark/)
 
 ## ✨ Можливості
 
