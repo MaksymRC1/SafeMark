@@ -1,5 +1,6 @@
 <div align="center">
-<a href="hhttps://maksymrc1.github.io/SafeMark/" style="text-decoration: none;">🛡️ SafeMark</a>
+
+[🛡️ SafeMark][maksymrc1.github.io/SafeMark/]
 
 [![Ліцензія](https://img.shields.io/badge/ліцензія-MIT-green)](LICENSE)
 [![Версія](https://img.shields.io/badge/версія-1.0.0-blue)]()
@@ -130,7 +131,7 @@ MIT License - робіть що завгодно з цим кодом, але з
 
 ## 👨‍💻 Автор
 
-[Отрошко Максим] - [maksymotroshko@ukr.net] - <a href="https://github.com/MaksymRC1/watermarks" style="text-decoration: none;">Мій GitHub</a>
+Отрошко Максим - maksymotroshko@ukr.net - <a href="https://github.com/MaksymRC1/watermarks" style="text-decoration: none;">Мій GitHub</a>
 
 ## 🙏 Подяки
 
@@ -140,3 +141,5 @@ MIT License - робіть що завгодно з цим кодом, але з
 ---
 
 **SafeMark** - робіть ваші документи захищеними з мінімумом зусиль! 🛡️
+
+[def]: hhttps://maksymrc1.github.io/SafeMark/
