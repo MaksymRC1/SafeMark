@@ -1,6 +1,5 @@
 <div align="center">
-
-[🛡️ SafeMark](https://maksymrc1.github.io/SafeMark/)
+<a href="hhttps://maksymrc1.github.io/SafeMark/" style="text-decoration: none;">🛡️ SafeMark</a>
 
 [![Ліцензія](https://img.shields.io/badge/ліцензія-MIT-green)](LICENSE)
 [![Версія](https://img.shields.io/badge/версія-1.0.0-blue)]()
@@ -97,7 +96,7 @@ safemark/
 
 ```bash
 # Клонувати репозиторій
-git clone https://github.com/yourusername/safemark.git
+git clone https://github.com/MaksymRC1/safemark.git
 
 # Перейти в папку проекту
 cd safemark
@@ -131,7 +130,7 @@ MIT License - робіть що завгодно з цим кодом, але з
 
 ## 👨‍💻 Автор
 
-[Ваше ім'я] - [ваш email] - [посилання на GitHub]
+[Отрошко Максим] - [maksymotroshko@ukr.net] - <a href="https://github.com/MaksymRC1/watermarks" style="text-decoration: none;">Мій GitHub</a>
 
 ## 🙏 Подяки
 
@@ -141,5 +140,3 @@ MIT License - робіть що завгодно з цим кодом, але з
 ---
 
 **SafeMark** - робіть ваші документи захищеними з мінімумом зусиль! 🛡️
-
-[def]: https://github.com/MaksymRC1/watermarks "Мій проект з ватермарками"
